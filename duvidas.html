@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dúvidas</title>
+    <link rel="shortcut icon" href="fav-Elcommerce-e.png" type="image/x-png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100px;
+        list-style: none;
+        margin-left: 83%;
+        margin-top: 5.5%;
+        z-index: 9999;
+        text-align: center;
+        padding-left: 0;
+        height: 94.5px;
+        border-radius: 10px 0px 0px 10px;
+        width: 150px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #menu li {
+        padding-top: 5%;
+        border-bottom: 1px solid black;
+        border-radius: 1px ;
+        margin-left:0.5% ;
+        width: 150px;
+    }
+    #menu .active {
+        color: #ff8800;
+    }
+
+    .btn-button {
+        position: absolute;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        margin-left: 90%;
+        margin-top: 3%;
+        z-index: 9999;
+        height: 60px;
+        font-size: 130%;
+    }
+
+    .btn-button {
+        background-color: #ff9419;
+        width: 150px;
+
+    }
+    footer {justify-content: space-between;
+        position: absolute;
+
+}
+footer img { 
+    margin-top: 2%;
+    margin-left: 27.65555%;
+    width: 3%;
+    height: 10%; 
+    transition: transform 0.2s ease;}
+
+    a:hover img {
+        transform: scale(1.20);
+    }
+</style>
+
+<body>
+    <header>
+        <img src="Elcommerce-e.png" alt="minilg">
+        <button class="btn-button" id="menu-button">Filtrar</button>
+        <ul id="menu">
+            <li><a href="notebooks.html">Notebooks</a></li>
+            <li><a href="consoles.html">Consoles</a></li>
+            <li><a href="relogio.html">Relógios</a></li>
+                </ul>
+        <script src="unidunite.js"></script>
+        <div class="onavbar">
+            <nav>
+                <a href="index.html"><button class="nav-btn"><strong>Página inicial</strong></button></a>
+                <a href="duvidas.html"><button class="active"><strong>Dúvidas</strong></button></a>
+                <a href="reclamaçoes.html"><button class="nav-btn"><strong>Reclamações</strong></button></a>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <section class="duvidaspage">
+            <H1>Porque o site "não funciona"?</H1>
+<br>            
+            <p><i><strong>Resposta:</strong>Este site não funciona pois não possue um banco de dados por trás, ele apenas é para fins educacionais</i></p>
+            <br><br>
+            <h2>Quem desenvolveu este site?</h2>
+<br>
+            <p><i><strong>Resposta:</strong>Este site foi desenvolvido por Bruno e Matheus</i></p>
+            <br><br>
+            <h1>Qualquer outra dúvida mande mensagem para nós!</h1>
+            <p>⬇️</p>
+            <br>
+            <form onsubmit="sendEmail(); return false;">    
+                <textarea id="email-body" rows="4" cols="50" placeholder="Dúvidas"></textarea><br>
+                <center><button type="submit">Enviar</button></center>
+            </form>
+        
+        <script src="enviaremail.js"></script>
+        </section>
+    </article>
+    <footer>
+ 
+            <form>
+                <a href="https://www.instagram.com/elcommerce-e/"><img src="icons/instagram.png" alt="instagram"></a>
+                <a href="https://pt-br.facebook.com/"><img src="icons/facebook.png" alt="facebook"></a>
+                <a href="https://web.telegram.org/"><img src="icons/telegram.png" alt="telegram"></a>
+            </form>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 140px;
+    padding-top: 1%;
+    box-shadow: 5px 5px 0px 0px solid black;
+    margin: 0;
+  }
+  
+  header img {
+    position: absolute;
+    margin-left: 3%;
+    width: 8.5%;
+    height: 12%;
+  }
+  div .onavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav { position: absolute;
+  border: 2px solid black ;
+  border-bottom: 0;
+  width: 65%;
+  height: 70px ;
+  margin-top: 3%;
+  margin-left: 15%;}
+
+  nav a .active,
+  nav a .nav-btn {
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: 15%;
+    height: 30px;
+    line-height: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  nav a .active {
+    background-color: #f87f47;
+    color: white;
+  }
+  
+  nav a .active:hover,
+  nav a .nav-btn:hover {
+    position: static;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    background-color: #f87f47;
+    height: 30px;
+    transform: scale(1.10);
+    cursor: pointer;
+  }
+  nav a:hover .nav-btn {
+    transform: scale(1.15);
+  }
+
+body {
+    background-color: rgb(19, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+  }
+  
+  body .duvidaspage  h1, h2 {
+    text-align: center;
+    color: white;
+  }
+
+  body .duvidaspage  p {
+    text-align: center;
+    margin-left: -1%;
+    color: black;
+} .duvidaspage { margin-top: 10%; background-color: #f87f47; padding: 30px;}
+
+
+textarea {resize: none; margin-left: 39%; height: 100px;}
+aside {
+  margin-top: 1%;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+    height: 30em;
+    margin-left: 0.4%;
+    border-radius: 10%;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+    cursor: default;
+}
+
+aside p {
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+aside h2 {
+    margin-left: 15%;
+    text-align: center;
+    background-color: rgb(255, 132, 32);
+    color: rgb(0, 0, 0);
+    border-radius: 90px 2px 90px 2px;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 15px;
+    width: 70%;
+  }
+  
+.z_aside.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+}
+
+aside .container {
+  padding-top: 30%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+  
+.btn-5 {
+    position: relative;
+    margin-left: 32%;
+    margin-top: 100px;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgb(255, 131, 49);
+    background: linear-gradient();
+  }
+  .btn-5:hover {
+    cursor: pointer;
+    position: relative;
+    margin-left: 32%;
+    margin-top: 100px;
+    color: rgb(255, 121, 44);
+    font-size: 20px;
+    background: transparent;
+    box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:2px;
+    height:2px;
+    width:0;
+    background: #fd6a26;
+    transition:500ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:2px;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:900ms ease all;
+  }
+
+  aside img {
+    display: block;
+    margin: 0auto;
+    text-align: center;
+}
+h6{ margin-top: 10%;
+    margin-bottom: 2%; 
+    margin-left: 20%;
+    color: white;
+    font-size: 200%;}
+
+#a_reclamação { resize: none;
+                font-size: 18px;
+                margin-left: 30%;
+                width: 700px;
+                height:150px;}
+

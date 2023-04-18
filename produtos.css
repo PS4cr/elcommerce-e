@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+section { margin-top: 2%; background-color: #f87f47; padding: 10%;
+margin-bottom: 2%;}
+section h1 { position: absolute; margin-top: -9.7%;
+    color: white;
+    font-size: 160%;
+margin-left: 35%;
+background-color: rgb(19, 19, 19);
+border-radius: 5px;
+width: 15%;
+text-align: center;}
+.box-game{ display: inline-block;}
+.videogame{
+    margin-top: -6%; 
+    position: absolute;
+    width: 10%;
+    border: 2px solid black;
+    transition: transform 0.5s ease;
+}
+.escrita-box {
+    margin-top: 5%; 
+    position: absolute;
+     background-color: rgb(112, 1, 1);
+     text-align: center;
+     width: 10%; 
+     border-radius: 10px;
+     
+     transition: transform 0.5s ease;
+}
+#xboxs {
+        margin-left: 11% ;
+}
+#exboxs{
+    margin-left: 11% ;
+}
+#ps5 {
+        margin-left: 24%;        
+}
+#eps5{
+    margin-left: 24%;
+}
+
+#mario { width: 12%;
+    height: 19.5%;
+    margin-left: 37%;
+}
+#emario { 
+    margin-left:  38% ;
+}
+#steam { width: 16%;
+        height: 19.5%;
+    margin-left: 52%;}
+#esteam {margin-left: 55%;}
+
+#note1{
+    margin-left: 13% ;
+}
+#enote1{
+    margin-left: 13% ;
+}
+#note2{ width: 10%;
+    height: 18.5%;
+    margin-left: 27%;        
+}
+#enote2{
+    margin-left: 27%;        
+}
+#note3{ width: 10%;
+    height: 18.5%;
+    margin-left: 41%;
+}
+#enote3{ 
+    margin-left:  41% ;
+}
+#note4{width: 11%;
+    height: 18.5%;
+margin-left: 55%;
+
+}
+#enote4{margin-left: 55.5%;
+
+}
+#watch1{
+    margin-left: 11% ;
+}
+#ewatch1{
+    margin-left: 11% ;
+}
+#watch2{
+    margin-left: 24%;        
+}
+#ewatch2{
+    margin-left: 24%;        
+}
+#watch3{  margin-left: 37%;
+}
+#ewatch3{  margin-left: 37%;
+}
+#watch4 { width: 16%;
+    height: 18.5%;
+margin-left: 50%;}
+#ewatch4 {  
+    margin-left: 53%;
+}
+
+.box-game a { color: white;} 
+a:hover .videogame {
+     cursor: pointer;
+     transform: scale(1.10);
+}
+a:hover .escrita-box {
+    cursor: pointer;
+    transform: scale(1.10);}
+
+    @media screen and (max-width: 768px) and (max-width: 1024px) {
+        section h1 {
+          margin-left: 25%;
+          width: 50%;
+        }
+      
+        .videogame,
+        .escrita-box,
+        #xboxs,
+        #exboxs,
+        #ps5,
+        #eps5,
+        #mario,
+        #emario,
+        #steam,
+        #esteam,
+        #note1,
+        #enote1,
+        #note2,
+        #enote2,
+        #note3,
+        #enote3,
+        #note4,
+        #enote4,
+        #watch1,
+        #ewatch1,
+        #watch2,
+        #ewatch2,
+        #watch3,
+        #ewatch3,
+        #watch4,
+        #ewatch4 {
+          margin-left: 0;
+          width: 100%;
+        }
+      }

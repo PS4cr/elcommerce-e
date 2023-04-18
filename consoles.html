@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consoles</title>
+    <link rel="shortcut icon" href="fav-Elcommerce-e.png" type="image/x-png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="produtos.css">
+</head>
+<style>
+    #menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100px;
+        list-style: none;
+        margin-left: 83%;
+        margin-top: 5.5%;
+        z-index: 9999;
+        text-align: center;
+        padding-left: 0;
+        height: 94.5px;
+        border-radius: 10px 0px 0px 10px;
+        width: 150px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #menu li {
+        padding-top: 5%;
+        border-bottom: 1px solid black;
+        border-radius: 1px ;
+        margin-left:0.5% ;
+        width: 150px;
+    }
+    #menu .active {
+        color: #ff8800;
+    }
+
+    .btn-button {
+        position: absolute;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        margin-left: 90%;
+        margin-top: 3%;
+        z-index: 9999;
+        height: 60px;
+        font-size: 130%;
+    }
+
+    .btn-button {
+        background-color: #ff9419;
+        width: 150px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <img src="Elcommerce-e.png" alt="minilg">
+        <button class="btn-button" id="menu-button">Filtrar</button>
+        <ul id="menu">
+            <li><a href="notebooks.html">Notebooks</a></li>
+            <li><a class="active" href="consoles.html">Consoles</a></li>
+            <li><a href="relogio.html">Relógios</a></li>        
+        </ul>
+        <script src="unidunite.js"></script>
+        <div class="onavbar">
+            <nav>
+                <a href="index.html"><button class="nav-btn"><strong>Página inicial</strong></button></a>
+                <a href="duvidas.html"><button class="nav-btn"><strong>Dúvidas</strong></button></a>
+                <a href="reclamaçoes.html"><button class="nav-btn"><strong>Reclamações</strong></button></a>
+            </nav>
+        </div>
+    </header>
+
+    <!--aqui é pra ter a parte das compras-->
+    <article>
+        <section style="margin-top: 12% ;">
+            <h1>Video Games</h1>
+            <div class="box-game">
+                <a href="compra.html">
+                    <img class="videogame" id="xboxs" src="../uwu/fotos_console/seriesx.webp" alt="xboxseriesS">
+                    <div class="escrita-box" id="exboxs">
+                        <h3>Xbox Series S</h3>
+                        <p>R$2000</p>
+                    </div>
+                </a>
+                <a href="compra.html">
+                    <img class="videogame" id="ps5" src="../uwu/fotos_console/ps5.png" alt="ps5">
+                    <div class="escrita-box" id="eps5">
+                        <h3>PS5</h3>
+                        <p>R$5000</p>
+                    </div>
+                </a>
+                <a href="compra.html">
+                    <img class="videogame" id="mario" src="../uwu/fotos_console/issae.png" alt="nintendo">
+                    <div class="escrita-box" id="emario">
+                        <h3>Nintendo</h3>
+                        <p>R$2299</p>
+                    </div>
+                </a>
+                <img class="videogame" id="steam" src="../uwu/fotos_console/6438c87d4c0a6a635bde9a661c96a2de8b71293e.jpg" alt="xboxseriesS">
+                <div class="escrita-box" id="esteam">
+                    <h3>Steamdeck</h3>
+                    <p>Indisponivel</p>
+                </div>
+            </div>
+        </section>
+    </article>
+    
+</body>
+</html>

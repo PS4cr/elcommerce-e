@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclamações</title>
+    <link rel="shortcut icon" href="fav-Elcommerce-e.png" type="image/x-png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100px;
+        list-style: none;
+        margin-left: 83%;
+        margin-top: 5.5%;
+        z-index: 9999;
+        text-align: center;
+        padding-left: 0;
+        height: 94.5px;
+        border-radius: 10px 0px 0px 10px;
+        width: 150px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #menu li {
+        padding-top: 5%;
+        border-bottom: 1px solid black;
+        border-radius: 1px ;
+        margin-left:0.5% ;
+        width: 150px;
+    }
+    #menu .active {
+        color: #ff8800;
+    }
+
+    .btn-button {
+        position: absolute;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+        margin-left: 90%;
+        margin-top: 3%;
+        z-index: 9999;
+        height: 60px;
+        font-size: 130%;
+    }
+
+    .btn-button {
+        background-color: #ff9419;
+        width: 150px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <img src="Elcommerce-e.png" alt="minilg">
+        <button class="btn-button" id="menu-button">Filtrar</button>
+        <ul id="menu">
+            <li><a href="notebooks.html">Notebooks</a></li>
+            <li><a href="consoles.html">Consoles</a></li>
+            <li><a href="relogio.html">Relógios</a></li>
+            </ul>
+        <script src="unidunite.js"></script>
+        <div class="onavbar">
+            <nav>
+                <a href="index.html"><button class="nav-btn"><strong>Página inicial</strong></button></a>
+                <a href="duvidas.html"><button class="nav-btn"><strong>Dúvidas</strong></button></a>
+                <a href="reclamações.html"><button class="active"><strong>Reclamações</strong></button></a>
+            </nav>
+        </div>
+    </header>
+    <h6>Faça aqui sua reclamação:</h6> 
+    <form action="mailto:elcommercee@gmail.com" method="post">
+            <textarea type="email" name="reclamações" id="a_reclamação" cols="20" rows="20" maxlength="200" placeholder=" Máximo de 200 letras"></textarea>
+                
+                <input type="submit" placeholder="enviar"> 
+    </form>    
+</body>
+</html>
